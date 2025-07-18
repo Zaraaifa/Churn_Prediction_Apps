@@ -1,7 +1,8 @@
+python_version == 3.13
 streamlit
 pandas
 numpy
-scikit-learn
+scikit-learn==1.2.2
+imbalanced-learn==0.10.1
 joblib
 matplotlib
-imblearn
