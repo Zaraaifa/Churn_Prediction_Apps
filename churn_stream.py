@@ -25,7 +25,7 @@ ordered_features = [
 
 # Load and predict training data
 def load_and_predict_training_data():
-    df_train = pd.read_csv("/Users/macm1/Desktop/VSCode/X_train_cleaned.csv")
+    df_train = pd.read_csv("X_train_cleaned.csv")
     X_input = df_train[ordered_features].copy()
     y_pred = model.predict(X_input)
     df_train["Prediction"] = ["Churn" if p == 1 else "Not Churn" for p in y_pred]
