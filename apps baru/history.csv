@@ -1,0 +1,2 @@
+NumberOfDeviceRegistered,DaySinceLastOrder,OrderCount,OrderAmountHikeFromlastYear,Tenure,NumberOfAddress,CityTier,SatisfactionScore,WarehouseToHome_Bin,Cashback_Cat,Complain,PreferredPaymentMode,Prediction
+0,0,0,0.0,0,0,1,1,Very Close (≤9),Low,0,Credit Card,Not Churn
